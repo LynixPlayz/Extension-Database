@@ -5,4 +5,8 @@
 // @urls         ["https://play.blooket.com/", "https://play.blooket.com/*"]
 // -- Hacklet -- 
 
-alert("hi")
+document.onreadystatechange = function () {
+  if (document.readyState == "complete") {
+    alert("Page Finished Loading!");
+  };
+};
