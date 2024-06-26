@@ -5,9 +5,7 @@
 // @urls         ["https://play.blooket.com/", "https://play.blooket.com/*"]
 // -- Hacklet -- 
 
-document.onreadystatechange = function () {
-  if (document.readyState == "complete") {
-    let i = document.createElement('iframe');
+let i = document.createElement('iframe');
                         document.body.append(i);
                         window.alert = i.contentWindow.alert.bind(window);
                         i.remove();
@@ -36,5 +34,3 @@ document.onreadystatechange = function () {
                                 .then(({ data: { dailyReward } }) => alert(`Added max tokens and xp, and got ${dailyReward} daily wheel tokens!`))
                                 .catch(() => alert('There was an error when adding rewards.'));
                         }
-  };
-};
