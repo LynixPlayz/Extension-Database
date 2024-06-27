@@ -2,19 +2,53 @@
 // -- Hacklet --
 // @name         Dark Mode
 // @version      0.1
-// @author       Hacklet
+// @author       BRP
 // -- Hacklet -- 
 */
 
-html {
-  -webkit-filter:invert(100%) hue-rotate(180deg) contrast(70%) !important; 
-  background: #fff;
+.styles__header___153FZ-camelCase,.styles__header___3I92N-camelCase,.styles__header___WE435-camelCase,.styles__header___3pXWa-camelCase,.styles__header___1nw_w-camelCase,.styles__header___1Amh6-camelCase,.styles__topHeader___3KP_9-camelCase,.styles__header___1szkq-camelCase,.styles__header___2zcdQ-camelCase,.styles__header___2UjpZ-camelCase,.styles__nothingHeader___2YDJb-camelCase{
+    color: white;
+    text-shadow: 0 0 10px rgba(255,255,255,.7);
 }
-
-.line-content {
-  background-color: #fefefe;
+.styles__sidebar___1XqWi-camelCase{
+    background-color: #000000;
+    box-shadow: inset -2px 0 rgb(203 203 203 / 20%);
 }
-
-html img {
-  -webkit-filter:invert(100%) hue-rotate(0deg) contrast(100%) !important;
+.MainHeader_mainheader__w2rcR{
+    background-color: #000000;
+    box-shadow: inset 0px -2px rgb(203 203 203 / 20%);
+}
+.styles__mInstantButton___3lgNk-camelCase, .styles__settingButton___2xaQu-camelCase{
+    background-color: rgb(215 215 215 / 37%);
+    color: #ffffff;
+}
+.styles__pageSelected___MugaH-camelCase,.styles__pageButton___1wFuu-camelCase:hover{
+    color: black;
+}
+.styles__profileContainer___CSuIE-camelCase{
+    background-color: #393939;
+}
+.styles__mInstantButton___3lgNk-camelCase:hover {
+    background-color: rgb(215 215 215 / 50%);
+}
+body,.styles__tokenBalance___1FHgT-camelCase,.styles__profileDropdownOption___ljZXD-camelCase,.styles__searchIcon___oR83L-camelCase,.styles__text___KSL4--camelCase,.styles__questionText___1gLDI-camelCase,.styles__cardContainer___NGmjp-camelCase,.styles__infoContainer___2uI-S-camelCase,.styles__setHeader___3cQBW-camelCase,.styles__setPlays___1zTiS-camelCase,.styles__setLastEdit___2QVio-camelCase,.styles__playButton___2x7Vv-camelCase,.styles__starIcon___GFtn3-camelCase,.styles__setHeader___2jLgJ-camelCase,.styles__setPlays___2MbGx-camelCase,.styles__setAuthorText___19eeA-camelCase,.styles__dropHeader___2odxW-camelCase,.styles__dropText___kHiNf-camelCase,.styles__titleHeader___2ucie-camelCase,.styles__descHeader___l-eBZ-camelCase,.styles__categoryHeader___1imk6-camelCase,.styles__categoryDesc___1CLWs-camelCase,.styles__privacyText___dk1Ik-camelCase,.styles__privacyTextDesc___3x9Lg-camelCase{
+    color: white;
+}
+.styles__background___2J-JA-camelCase,.styles__container___3LSgB-camelCase,.arts__body___3acI_-camelCase,.idstyles_outerContainer__mgrIW{
+    background-color: black;
+}
+.styles__left___9beun-camelCase,.styles__tokenBalance___1FHgT-camelCase,.styles__profileDropdownOption___ljZXD-camelCase,.styles__profileDropdownMenu___2jUAA-camelCase,.styles__profileDropdownMenu___2jUAA-camelCase,.styles__container___1BPm9-camelCase,.styles__searchBar___1BqiF-camelCase,.styles__numQuestions___2_rh8-camelCase,.styles__leftColumn___1iY1q-camelCase,.styles__questionContainer___2YC9r-camelCase,.styles__cardContainer___NGmjp-camelCase,.styles__infoContainer___2uI-S-camelCase,.styles__setContainer___1vhA_-camelCase,.styles__dropHolder___w3K7S-camelCase,.styles__categoryContainer___1TV2P-camelCase,.styles__dropContainer___3u-Jh-camelCase,.styles__upperRightContainer___2b7Pg-camelCase,.styles__setContainer___2Li3P-camelCase,.styles__searchBoxHolder___1uLEf-camelCase,.styles__blookUsageContainer___1skDN-camelCase,.styles__historyContainer___kQ6kc-camelCase,.styles__customBlookContainer___3wjWt-camelCase,.styles__statsContainer___QnrRB-camelCase,.styles__passContainer___2Fj2w-camelCase,.styles__questionContainer___2heRn-camelCase{
+    background-color: #1f1f1f;
+}
+.styles__nothingContainer___1bY81-camelCase{
+    border: 2px solid white;
+}
+.styles__passContainer___2Fj2w-camelCase{
+    background-image: repeating-linear-gradient(45deg,#1f1f1f 25%,transparent 0,transparent 75%,#1f1f1f 0,#1f1f1f),repeating-linear-gradient(45deg,#1f1f1f 25%,#3f3f3f 0,#3f3f3f 75%,#1f1f1f 0,#1f1f1f);
+}
+.styles__historyGameContainer___1ncNG-camelCase,.styles__statContainer___QKuOF-camelCase,.styles__containerHeader___3xghM-camelCase,.styles__passHeader___2qLTt-camelCase,.styles__passHeaderRight___1idaX-camelCase{
+    background-color: #3f3f3f;
+}
+.styles__containerHeaderInside___2omQm-camelCase,styles__passHeaderInside___3LQOs-camelCase,.styles__searchInput___sVM-G-camelCase,.styles__searchInput___114hs-camelCase{
+    background: none;
 }
